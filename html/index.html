@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicólogos Online</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Psicólogos Online</h1>
+        <nav>
+            <a href="#" id="home-link">Inicio</a>
+            <a href="#" id="services-link">Servicios</a>
+            <a href="#" id="login-btn">Iniciar Sesión</a>
+            <a href="#" id="logout-btn" style="display:none;">Cerrar Sesión</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Tu bienestar emocional, nuestra prioridad</h2>
+        <p>Atención psicológica profesional desde la comodidad de tu hogar. Contáctanos y agenda tu primera cita.</p>
+        <a href="#" class="btn" id="agendar-cita">Agendar cita</a>
+    </section>
+
+    <section class="services" id="services-section">
+        <div class="card">
+            <h3>Psicólogo Clínico</h3>
+            <p>Tratamiento de problemas emocionales, ansiedad, depresión y trastornos mentales.</p>
+        </div>
+        <div class="card">
+            <h3>Psicólogo Infantil</h3>
+            <p>Atención a niños y adolescentes para su desarrollo emocional y social.</p>
+        </div>
+        <div class="card">
+            <h3>Psicólogo Organizacional</h3>
+            <p>Asesoramiento laboral, manejo de estrés y desarrollo profesional.</p>
+        </div>
+    </section>
+
+    <section class="hidden" id="login-section">
+        <h2>Iniciar Sesión</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit" class="btn">Ingresar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Psicólogos Online | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
